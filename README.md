@@ -50,7 +50,7 @@ Arguments:
 - `llm.explain.usage` (if you add short explanations) – optional
 - `grade.done` `error`
 
-### Local model support (Bonus +10)
+### Local model support 
 You can implement `--model local:<name>` using an open-source VLM (e.g., LLaVA, Qwen2-VL, Qwen3-omni). The file already contains a `parse_with_local` hook to implement. Suggested steps:
 1. Download/serve your chosen local VLM.
 2. Implement `parse_with_local(name, jpeg_pages_bytes, temperature)` to call the model and return the same structure as the OpenAI path.
