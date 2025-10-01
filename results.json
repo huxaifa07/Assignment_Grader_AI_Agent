@@ -1,0 +1,122 @@
+{
+  "totals": {
+    "part_a": {
+      "score": 2.5,
+      "max": 4.0,
+      "raw_correct": 5,
+      "raw_max": 8
+    },
+    "part_b": {
+      "score": 0.25,
+      "max": 4.0,
+      "b1": 0.125,
+      "b2": 0.0
+    },
+    "part_c": {
+      "score": 2.0,
+      "max": 2.0
+    },
+    "overall": {
+      "score": 4.75,
+      "max": 10.0
+    }
+  },
+  "extracted": {
+    "part_a": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "D",
+      "5": "A",
+      "6": "C",
+      "7": "C",
+      "8": "D"
+    },
+    "part_b": {
+      "b1": [
+        "E",
+        "G",
+        "C",
+        "A",
+        "F",
+        "B",
+        "D",
+        "H"
+      ],
+      "b2": [
+        "H",
+        "E",
+        "A",
+        "F",
+        "C",
+        "G",
+        "B"
+      ]
+    },
+    "part_c": {
+      "prompt": "role = manager, input = transcribed minutes of meeting steps = standardize transcript (ii) extract decision relevant to owner JSON = { timestamp, question, quarter, source, problem, transcribed content }"
+    }
+  },
+  "part_a": [
+    {
+      "question": "1",
+      "student": "A",
+      "correct": "C",
+      "is_correct": false
+    },
+    {
+      "question": "2",
+      "student": "B",
+      "correct": "B",
+      "is_correct": true
+    },
+    {
+      "question": "3",
+      "student": "A",
+      "correct": "A",
+      "is_correct": true
+    },
+    {
+      "question": "4",
+      "student": "D",
+      "correct": "B",
+      "is_correct": false
+    },
+    {
+      "question": "5",
+      "student": "A",
+      "correct": "A",
+      "is_correct": true
+    },
+    {
+      "question": "6",
+      "student": "C",
+      "correct": "A",
+      "is_correct": false
+    },
+    {
+      "question": "7",
+      "student": "C",
+      "correct": "C",
+      "is_correct": true
+    },
+    {
+      "question": "8",
+      "student": "D",
+      "correct": "D",
+      "is_correct": true
+    }
+  ],
+  "part_b": [
+    {
+      "question": "B1",
+      "score": 0.125,
+      "explanation": "1/8 positions match."
+    },
+    {
+      "question": "B2",
+      "score": 0.0,
+      "explanation": "0/8 positions match."
+    }
+  ]
+}
