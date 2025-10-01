@@ -61,8 +61,4 @@ You can implement `--model local:<name>` using an open-source VLM (e.g., LLaVA, 
 - `results.json`, `logs.jsonl`
 - `quiz_pages/` with your scanned pages
 
-### Notes
-- Do not include personal keys in `.env.example`.
-- Keep the submission as a single zip: `FirstName_RollNumber_02.zip`.
-
 
